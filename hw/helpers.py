@@ -21,7 +21,7 @@ from vertexai.vision_models import MultiModalEmbeddingModel
 
 __all__ = ["get_document_metadata"]
 
-text_embedding_model = TextEmbeddingModel.from_pretrained("text-embedding-004")
+text_embedding_model = TextEmbeddingModel.from_pretrained("text-embedding-005")
 multimodal_embedding_model = MultiModalEmbeddingModel.from_pretrained(
     "multimodalembedding"
 )
